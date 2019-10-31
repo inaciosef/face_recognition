@@ -1,3 +1,20 @@
+This code is dead!
+
+For anyone that want to do face recognition, just forget this one. There is a package that do it and it works on kinetic and melodic. Check wiki.ros.org/opencv_apps
+
+To install (change distro to kinetic if you need):
+sudo apt install ros-melodic-opencv-apps
+sudo apt install xterm
+sudo apt install ros-melodic-usb-cam
+
+Its based on these two opencv tutorials, so the code is commented and explained:
+
+https://docs.opencv.org/3.3.1/db/d3a/facedetect_8cpp-example.html
+https://docs.opencv.org/3.2.0/da/d60/tutorial_face_main.html
+
+It works!
+
+
 ### Copyright 2012-2014 Pouyan Ziafati, University of Luxembourg 
 > * All image processing and face recognition functionalities are provided by utilizing the Shervin Emami's c++ source code for face recognition (http://www.shervinemami.info/faceRecognition.html).
  * License: Attribution-NonCommercial 3.0 Unported (http://creativecommons.org/licenses/by-nc/3.0/) 
